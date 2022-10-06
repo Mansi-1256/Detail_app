@@ -1,5 +1,3 @@
-
-
 import Detail from "../model/detail.js"
 
 const createdetail = async (req, res) => {

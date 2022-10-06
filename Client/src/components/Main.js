@@ -7,6 +7,7 @@ import Table from './Table'
 
 const Main = () => {
     const [detail, setDetail] = useState("");
+
     useEffect(() => {
         async function fetchData() {
             const { data } = await axios.get('http://localhost:5000/detail')
